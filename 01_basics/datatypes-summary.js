@@ -32,3 +32,27 @@
 // }
 
 // console.log(typeof scoreValue);
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//stack(primitive),Heap(Non-Primitive)
+let myYoutubename = "snehagawande"
+
+let anothername = myYoutubename
+anothername = "sneakyyedits"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi:"user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email="sneha@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
